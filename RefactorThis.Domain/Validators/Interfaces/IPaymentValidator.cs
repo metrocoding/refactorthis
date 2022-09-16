@@ -1,6 +1,6 @@
-using RefactorThis.Persistence;
+using RefactorThis.Persistence.Models;
 
-namespace RefactorThis.Domain.Validator
+namespace RefactorThis.Domain.Validators.Interfaces
 {
     public interface IPaymentValidator
     {

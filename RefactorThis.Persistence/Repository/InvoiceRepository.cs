@@ -1,12 +1,13 @@
 using System;
+using RefactorThis.Persistence.Models;
 
-namespace RefactorThis.Persistence
+namespace RefactorThis.Persistence.Repository
 {
-    public class InvoiceRepository
+    public class InvoiceRepository : IRepository<Invoice>
     {
         private Invoice _invoice;
 
-        public Invoice GetInvoice(string reference)
+        public Invoice Get(string reference)
         {
             Console.WriteLine($"Getting invoice: {reference}");
             return _invoice;

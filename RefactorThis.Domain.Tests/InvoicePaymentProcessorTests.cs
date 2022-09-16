@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 using RefactorThis.Persistence;
+using RefactorThis.Persistence.Models;
+using RefactorThis.Persistence.Repository;
 
 namespace RefactorThis.Domain.Tests
 {
